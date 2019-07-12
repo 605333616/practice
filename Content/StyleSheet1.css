@@ -1,0 +1,39 @@
+﻿body, div, form, html, a {
+    padding: 0;
+    margin: 0;
+}
+/**/
+.top {
+    background-image: url('Content/1.1@3x.png');
+    background-size: cover;
+    width: 750px;
+    height: auto;
+}
+#title_picture {
+    background-image: url('Content/1@3x.png');
+    background-size: cover;
+    width: 750px;
+    height: 422px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+#skip_picture {
+    width: 750px;
+    height: 836px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+#skip_picture_2 {
+    background-image: url('Content/ct-2@2x.png');
+    background-size: cover;
+    width: 750px;
+    height: 836px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+/**/
