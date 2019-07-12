@@ -2,15 +2,18 @@
     padding: 0;
     margin: 0;
 }
+
 /**/
+#context {
+    max-width: 750px;
+    margin: 0 auto;
+}
 .top {
-    background-image: url('Content/1.1@3x.png');
-    background-size: cover;
-    width: 750px;
+
     height: auto;
 }
 #title_picture {
-    background-image: url('Content/1@3x.png');
+    background-image: url('1_1_3x.png');
     background-size: cover;
     width: 750px;
     height: 422px;
@@ -20,6 +23,8 @@
 }
 
 #skip_picture {
+    background-image: url('1_3x.png');
+    background-size: cover;
     width: 750px;
     height: 836px;
     display: -webkit-flex;
@@ -28,7 +33,7 @@
 }
 
 #skip_picture_2 {
-    background-image: url('Content/ct-2@2x.png');
+    background-image: url('ct-2_2x.png');
     background-size: cover;
     width: 750px;
     height: 836px;
